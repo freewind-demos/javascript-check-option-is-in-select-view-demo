@@ -2,7 +2,27 @@
 <head>
 </head>
 <body>
-<div id="main"></div>
+<div id="main">
+    <div>
+        <select multiple size="3" id="my-select" style="width: 200px">
+            <option value="111">111</option>
+            <option value="222">222</option>
+            <option value="333">333</option>
+            <option value="444">444</option>
+            <option value="555">555</option>
+            <option value="666">666</option>
+            <option value="777" selected>777</option>
+            <option value="888">888</option>
+            <option value="999">999</option>
+            <option value="aaa">aaa</option>
+            <option value="bbb">bbb</option>
+            <option value="ccc">ccc</option>
+        </select>
+    </div>
+    <div>
+        <button onclick="checkSelectedOptionInSelectView()">Check selected option is in select view</button>
+    </div>
+</div>
 <script src="./index.js"></script>
 </body>
 </html>
